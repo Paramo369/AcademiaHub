@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #449e50;
+}
+
+.logo {
+    width: 170px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .nav-item {
+    margin-right: 25px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #0aa048;
+}
+
+.navbar-toggler {
+    margin-right: 25px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 17px 5px;
+}
+
+.sign-in-btn {
+    margin-left: auto;
+}
+
+.sign-in-li {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #000;
+    height: 280px;
+}
+
+.social-icon i {
+    font-size: 25px; 
+    padding: 60px 20px 0 20px;
+    color: #fff;
+    transition: color 0.3s ;
+}
+
+.social-icon i:hover {
+    color: #76f186;
+}
+
+.footer .text-center {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.logo-en-footer {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.main {
+    margin: 100px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 1010px;
+    background-color: rgba(240, 248, 255, 0.664);
+}
+
+.card-body {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 60px; 
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 10px; 
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.registrer a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.603);
+    font-weight: 500;
+}
+
+.group-password {
+    display: flex;
+}
+
+#togglePassword {
+    border: none;
+}

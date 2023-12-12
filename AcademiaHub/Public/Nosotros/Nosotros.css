@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 170px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .nav-item {
+    margin-right: 25px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #0aa048;
+}
+
+.navbar-toggler {
+    margin-right: 25px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 17px 5px;
+}
+
+.sign-in-btn {
+    margin-left: auto;
+}
+
+.sign-in-li {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #000;
+    height: 280px;
+}
+
+.social-icon i {
+    font-size: 25px; 
+    padding: 60px 20px 0 20px;
+    color: #fff;
+    transition: color 0.3s ;
+}
+
+.social-icon i:hover {
+    color: #76f186;
+}
+
+.footer .text-center {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.logo-en-footer {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.about-us-cover-container {
+    position: relative;
+    height: 600px; 
+    width: 100%; 
+    background: url('../images/nosotros.jpg') center/cover; 
+    color: #fff; 
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.about-us-cover-content {
+    position: relative;
+    z-index: 1; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-cover-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-us-cover-content p {
+    font-size: 1.2em;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.information-section {
+    padding: 50px 0; 
+    background-color: #e2dddd; 
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333; 
+}
+
+.card-text {
+    color: #666; 
+}
+
+.creation-section {
+    padding: 50px 0;
+}
+
+.creation-section img {
+    max-width: 100%;
+    margin: 40px 0;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+}
+
+.creation-story {
+    text-align: justify;
+    max-width: 600px;
+    margin: 20px auto;
+}

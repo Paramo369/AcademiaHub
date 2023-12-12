@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 170px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .nav-item {
+    margin-right: 25px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #0aa048;
+}
+
+.navbar-toggler {
+    margin-right: 25px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 17px 5px;
+}
+
+.sign-in-btn {
+    margin-left: auto;
+}
+
+.sign-in-li {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.subscription-container {
+    position: relative;
+    background-image: url('Public/images/imgprincipal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.subscription-content {
+    z-index: 1;
+    margin: 0 20px; 
+}
+
+.btn-register-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-register {
+    z-index: 1;
+    width: 200px; 
+}
+
+.courses-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #343a40; 
+}
+
+.courses-text p {
+    font-size: 16px;
+    color: #666;
+    text-align: center; 
+}
+
+.courses-btn {
+    margin-top: 20px; 
+}
+
+.subscription-container {
+    margin-bottom: 100px; 
+}
+
+.courses-section {
+    margin-bottom: 80px;
+}
+
+.benefits-section {
+    padding: 50px 0;
+}
+
+.benefit-box {
+    border: 1px solid #79797934;
+    box-shadow: 2px 2px 20px #999;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0px 10px 20px 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.benefit-box:hover {
+    transform: scale(1.05); 
+}
+
+
+.benefit-box i {
+    color: #12435f; 
+    font-size: 40px;
+}
+
+.benefit-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.benefit-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.wave-section {
+    position: relative;
+    padding-top: 20px;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 100px; 
+    bottom: 0;
+    left: 0;
+    background: url('Public/images/wave.svg') repeat-x; 
+}
+
+.community {
+    background-color: #A3E480;
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.community-explanation {
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.community-explanation h2 {
+    color: #000000;
+}
+
+.community-explanation p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.community-explanation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.community-explanation ul li:before {
+    content: ''; 
+    color: #28a745; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.community-btn {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.community-explanation img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+
+.how-it-works-section {
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.how-it-works-text {
+    padding: 20px;
+}
+
+.how-it-works-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.how-it-works-text p {
+    font-size: 16px;
+    color: #666;
+}
+
+.how-it-works-list {
+    list-style: none;
+    padding: 0;
+}
+
+.how-it-works-list li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.how-it-works-list li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #28a745;
+}
+
+.how-it-works-section img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+
+@media (max-width: 990px) {
+    .benefits-section .row,
+    .community-explanation .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits-section .col-md-4,
+    .community-explanation .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .benefit-box,
+    .community-explanation {
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .benefits-section .row,
+    .community-explanation .row,
+    .how-it-works-section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits-section .col-md-4,
+    .community-explanation .col-md-6,
+    .how-it-works-section .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .benefit-box,
+    .community-explanation,
+    .how-it-works-text {
+        text-align: center;
+    }
+}
+
+.container-fluid {
+    background-color: #c0c0c0;
+}
+
+.testimonial-card {
+    background-color: #c9f3da;
+    width: 60%; 
+    margin: 0 auto; 
+    border: 1px solid #b6b3b3;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.testimonial-card .card-body {
+    padding: 20px;
+}
+
+.testimonial-card .card-body .card-text {
+    padding: 20px;
+}
+
+.testimonial-section {
+    text-align: center; 
+    padding-top: 80px; 
+}
+
+.about-us-section {
+    background-color: #f8f9fa; 
+    padding: 80px 40px; 
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.about-us-text {
+    text-align: justify; 
+}
+
+.about-us-text h2 {
+    color: #28a745; 
+}
+
+.about-us-text p {
+    margin-bottom: 20px; 
+}
+
+.about-us-text p:last-child {
+    margin-bottom: 60px; 
+}
+
+.about-us-section img {
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.footer {
+    background-color: #000;
+    height: 280px;
+}
+
+.social-icon i {
+    font-size: 25px; 
+    padding: 60px 20px 0 20px;
+    color: #fff;
+    transition: color 0.3s ;
+}
+
+.social-icon i:hover {
+    color: #76f186;
+}
+
+.footer .text-center {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.logo-en-footer {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+#seminariosCarousel {
+    max-width: 300px; /* Ancho máximo del carrusel */
+    margin: auto; /* Centrar el carrusel en el contenedor */
+}
+
+.carousel-inner {
+    display: flex; /* Visualizar los elementos internos en línea */
+    flex-wrap: wrap; /* Envolver los elementos a la siguiente línea si no caben en el ancho */
+}
+
+.carousel-item {
+    width: 100%; /* Ancho completo de cada elemento del carrusel */
+    display: flex; /* Permitir flexibilidad en el diseño */
+    justify-content: center; /* Centrar los elementos dentro del carrusel */
+}

@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #449e50;
+}
+
+.logo {
+    width: 170px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .nav-item {
+    margin-right: 25px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #0aa048;
+}
+
+.navbar-toggler {
+    margin-right: 25px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 17px 5px;
+}
+
+.sign-in-btn {
+    margin-left: auto;
+}
+
+.sign-in-li {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #000;
+    height: 280px;
+}
+
+.social-icon i {
+    font-size: 25px; 
+    padding: 60px 20px 0 20px;
+    color: #fff;
+    transition: color 0.3s ;
+}
+
+.social-icon i:hover {
+    color: #76f186;
+}
+
+.footer .text-center {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.logo-en-footer {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main {
+    margin: 50px 0 300px 0;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.user-info h2 {
+    color: #333;
+    font-size: 50px; 
+    margin: 0; 
+}
+
+.user-data {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.user-data li {
+    margin-bottom: 20px;
+    width: 48%; 
+    font-size: 20px; 
+}
+
+.logout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #c9302c;
+}
+
+@media (max-width: 600px) {
+    .user-data li {
+        width: 100%; 
+    }
+}
